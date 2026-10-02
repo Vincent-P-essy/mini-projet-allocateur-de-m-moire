@@ -1,6 +1,12 @@
 
 # Projet : Implémentation de my_malloc / my_free
 
+## Execution preview
+
+![mini-projet-allocateur-de-m-moire execution](docs/screenshots/execution.png)
+
+Local execution of `./main`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
+
 ##  Contexte
 
 Ce projet a été réalisé dans le cadre du **TP 9 - Mini Projet II** d’Architecture des Systèmes Informatiques en L3 Informatique à l’Université Gustave Eiffel.
