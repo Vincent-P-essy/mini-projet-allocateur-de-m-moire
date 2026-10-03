@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
     if (tab == NULL)
       fprintf(stderr, "Echec allocation\n");
     else
-      fprintf(stderr, "Adr : %lu\n", tab);
+      fprintf(stderr, "Adr : %p\n", (void *)tab);
   }
   printf("C'est fait !\n");  
   return 0;
