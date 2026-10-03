@@ -1,12 +1,6 @@
 
 # Projet : Implémentation de my_malloc / my_free
 
-## Execution preview
-
-![mini-projet-allocateur-de-m-moire execution](docs/screenshots/execution.png)
-
-Local execution of `./main`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
-
 ##  Contexte
 
 Ce projet a été réalisé dans le cadre du **TP 9 - Mini Projet II** d’Architecture des Systèmes Informatiques en L3 Informatique à l’Université Gustave Eiffel.
@@ -40,21 +34,26 @@ Les blocs sont manipulés pour permettre l’allocation, la libération et la **
 
 ##  Arborescence du projet
 
-```
-my_malloc/
-├── src/
-│   ├── my_malloc.c
-│   └── main.c
-├── include/
-│   └── my_malloc.h
-├── version_commentée/
-│   └── version_bien_commente_de_malloc.c
+```text
+.
+├── my_malloc.c
+├── my_malloc.h
+├── main.c
+├── version_bien_commente_de_malloc.c
 ├── Makefile
-├── README.md
-└── rapport.pdf (optionnel)
+└── README.md
 ```
 
 ---
+
+## Compilation et exécution
+
+```bash
+make
+./main
+```
+
+Le programme de test exerce l’allocation, la libération et la fusion de blocs.
 
 ##  Objectifs pédagogiques
 
